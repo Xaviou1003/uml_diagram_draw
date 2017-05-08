@@ -1,0 +1,1 @@
+Store all GM diagrams created by me with https://www.draw.io tools
