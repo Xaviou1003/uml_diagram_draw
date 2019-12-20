@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-12-20T15:09:56.788Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:71.0) Gecko/20100101 Firefox/71.0" etag="4KNRhV837FlkfgPYrQII" version="12.4.3" type="github" pages="1">
+<mxfile host="www.draw.io" modified="2019-12-20T15:22:37.835Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:71.0) Gecko/20100101 Firefox/71.0" etag="SBh9LkQYRf6cQPNctjpM" version="12.4.3" type="github" pages="1">
   <diagram id="-6oB9mol3KRmY-ijUOtQ" name="Page-1">
     <mxGraphModel dx="2452" dy="738" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
@@ -315,6 +315,18 @@
         </mxCell>
         <mxCell id="VfZ5wekR2989KPgDg3WH-158" value="Production: Release 4.22 / Tag master 4.22.1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];;autosize=1;" vertex="1" parent="1">
           <mxGeometry x="277" y="647" width="290" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="VfZ5wekR2989KPgDg3WH-173" value="Remarques" style="swimlane;startSize=23;" vertex="1" parent="1">
+          <mxGeometry x="615" y="613" width="430" height="167" as="geometry"/>
+        </mxCell>
+        <mxCell id="VfZ5wekR2989KPgDg3WH-176" value="&lt;div&gt;Les modifications sur les&amp;nbsp; branches de release doivent être reporté &lt;br&gt;&lt;/div&gt;&lt;div&gt;sur la branche develop&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];;autosize=1;" vertex="1" parent="VfZ5wekR2989KPgDg3WH-173">
+          <mxGeometry x="-2" y="40" width="420" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="VfZ5wekR2989KPgDg3WH-183" value="&lt;div&gt;Si un bugfix est tiré pour la 4.22 alors que la branche release &lt;br&gt;&lt;/div&gt;&lt;div&gt;4.23 existe déjà, il faudra reporté les modifications&lt;/div&gt;&lt;div&gt; du bugfix sur la release 4.23&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];;autosize=1;" vertex="1" parent="VfZ5wekR2989KPgDg3WH-173">
+          <mxGeometry x="-2" y="112" width="390" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="VfZ5wekR2989KPgDg3WH-182" value="Les branches bugfix sont tirés depuis les branches de release" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];;autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="615" y="697" width="390" height="20" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
